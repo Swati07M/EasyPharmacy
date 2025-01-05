@@ -62,11 +62,11 @@ body {
 }
 #buttons button {
     width: 100px;
-    border: 2px solid #E80071;
+    border: 2px solid #4ac95d;
     padding: 1em, 2.2em;
     border-radius: 3em;
     background-color: transparent;
-    color: #E80071;
+    color: #8672ef;
     cursor: pointer;
     -webkit-border-radius: 3em;
     -moz-border-radius: 3em;
@@ -75,7 +75,7 @@ body {
 }
 
 .active {
-    background-color: #E80071;
+    background-color: #8672ef;
     color: #ffffff
 }
 
@@ -133,7 +133,7 @@ body {
     position: absolute;
     bottom: 20px;
     transform: translateX(-50%);
-    background-color: #087c87;
+    background-color: #045057;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -145,7 +145,7 @@ body {
 }
 
 .add-to-bag:hover {
-    background-color: #20a0a2;
+    background-color: #056869;
     text-align: center;
 }
 
@@ -162,7 +162,7 @@ body {
 
 
 .item-image {
-    width: 100%;
+    width: 80%;
     height: 60%;
 }
 
@@ -171,7 +171,7 @@ button {
     height: 40px;
     width: 90%;
     color: #ffffff;
-    background-color: #058b5d;
+    background-color: #034d33;
     border: none;
     border-radius: 10px;
     font-size: medium;
@@ -254,7 +254,7 @@ button:hover {
     padding: 1em 0.3em;
 }
 
-/*start cart*/
+
 
 /*start cart*/
 #cart {
@@ -266,20 +266,9 @@ button:hover {
 }
 
 #cart-button {
-    /* width: 150px;
-    background-color: #ff007f;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px; */
-    /* display: inline-flex; */
-    /* align-items: center;
-    justify-content: center; */
-    padding: 0px 10px;
+       padding: 0px 10px;
     width: auto;
-    background-color: #61035e;
+    background-color: #760472;
     color: white;
     font-weight: bold;
     border-radius: 8px;
@@ -296,7 +285,7 @@ button:hover {
     /* Initially hidden */
     width: 400px;
     /* height: 100%; */
-    background: rgb(179, 93, 255);
+    background: rgb(64, 3, 117);
     ;
     border: 1px solid #ddd;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);

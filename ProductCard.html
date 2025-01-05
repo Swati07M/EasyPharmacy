@@ -36,10 +36,10 @@
             <button class="btn-all">All Medicine</button>
             <button class="btn-WinterCare">Winter Care</button>
             <button class="btn-Vitamins">Vitamins</button>
-            <button class="btn-PainRelief">PainRelief</button>
-            <button class="btn-StomachCare">StomachCare</button>
-            <button class="btn-PersonalCare">PersonalCare</button>
-            <button class="btn-Cameras">Cameras</button>
+            <button class="btn-PainRelief">Pain Relief</button>
+            <button class="btn-StomachCare">Stomach Care</button>
+            <button class="btn-PersonalCare">Personal Care</button>
+            <button class="btn-Ayuvedic">Ayurvedic</button>
         </div>
         <div id="price-filter">
             <label for="min-price">Min Price: ₹</label>
@@ -78,7 +78,7 @@
         async function fetchData() {
             try {
                 let res = await fetch(
-                    // 'https://nayka-4ffd7-default-rtdb.firebaseio.com/product.json'
+                    `http://localhost:3000/product`
                 );
                 let data = await res.json();
                 console.log(data);
@@ -143,12 +143,7 @@
             rating.innerHTML = renderStars(item.ratings) + `<span>${item.ratings}</span>`;
 
             card.append(image, title, price, rating, button);
-            /*card.addEventListener("click", () => {
-            // Save product name to localStorage
-            localStorage.setItem("productName", item.name);
-            // Redirect to the product details page
-            window.location.href = "product-details.html";
-        });*/
+            
 
             return card;
         }
@@ -156,12 +151,12 @@
         // Function to set up category filter buttons
         function setupFilters(data) {
             document.querySelector(".btn-all").addEventListener("click", () => appendData(data));
-            document.querySelector(".btn-WinterCare").addEventListener("click", () => filterCategory(data, "WinterCare"));
+            document.querySelector(".btn-WinterCare").addEventListener("click", () => filterCategory(data, "Winter Care"));
             document.querySelector(".btn-Vitamins").addEventListener("click", () => filterCategory(data, "Vitamins"));
-            document.querySelector(".btn-PainRelief").addEventListener("click", () => filterCategory(data, "PainRelief"));
-            document.querySelector(".btn-StomachCare").addEventListener("click", () => filterCategory(data, "StomachCare"));
-            document.querySelector(".btn-PersonalCare").addEventListener("click", () => filterCategory(data, "PersonalCare"));
-            document.querySelector(".btn-Cameras").addEventListener("click", () => filterCategory(data, "Cameras"));
+            document.querySelector(".btn-PainRelief").addEventListener("click", () => filterCategory(data, "Pain Relief"));
+            document.querySelector(".btn-StomachCare").addEventListener("click", () => filterCategory(data, "Stomach Care"));
+            document.querySelector(".btn-PersonalCare").addEventListener("click", () => filterCategory(data, "Personal Care"));
+            document.querySelector(".btn-Ayurvedic").addEventListener("click", () => filterCategory(data, "Ayurvedic"));
         }
 
         // Function to filter products by category
