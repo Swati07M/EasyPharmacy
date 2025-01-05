@@ -25,7 +25,7 @@
         <!-- Product Image Right Section -->
         <div class="product-image">
             <img id="product-image" alt="Product Image">
-        </div>
+        </div> 
     </div>
 
     <div id="other-products" class="other-products">
@@ -36,10 +36,10 @@
 
     <script>
 
-        fetch('index.html')
+        fetch('navbar.html')
             .then(response => response.text())
             .then(data => {
-                document.querySelector('.index').innerHTML = data;
+                document.querySelector('.navbar').innerHTML = data;
             });
 
         fetch('footer.html')
@@ -63,6 +63,7 @@
 
             try {
                 // Fetch product data from the Firebase database
+
                 const response = await fetch('http://localhost:3000/product');
                 const data = await response.json();
 
