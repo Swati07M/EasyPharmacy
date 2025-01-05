@@ -1,0 +1,143 @@
+{
+"product": [
+{
+    "id": "001",
+    "name": "Zandu Chyavanprash Avaleha",
+    "brand": "Zandu",
+    "category": "Ayurvedic",
+    "price": 195,
+    "currency": "INR",
+    "stockStatus": "In Stock",
+    "ratings": 4.5,
+    "reviewsCount": 320,
+    "imageUrl": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/jznrkwvlkh1eau9x8muk.jpg"
+},
+{
+    "id": "002",
+    "name": "Tulsi Green Tea",
+    "brand": "Organic India",
+    "category": "Personal Care",
+    "price": 178,
+    "currency": "INR",
+    "stockStatus": "In Stock",
+    "ratings": 4.2,
+    "reviewsCount": 150,
+    "imageUrl": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/zztxxk5kpsgowlifcjpp.jpg"
+},
+{
+    "id": "003",
+    "name": "Testley Green Tea",
+    "brand": "Testley",
+    "category": "Personal Care",
+    "price": 462,
+    "currency": "INR",
+    "stockStatus": "Out of Stock",
+    "ratings": 4,
+    "reviewsCount": 250,
+    "imageUrl": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/10b2f9449d0b4d259d287d781e86416e.jpg"
+},
+{
+    "id": "004",
+    "name": "Sebamate bodylotion",
+    "brand": "USV",
+    "category": "Winter Care",
+    "price": 1000,
+    "currency": "INR",
+    "stockStatus": "In Stock",
+    "ratings": 4.5,
+    "reviewsCount": 180,
+    "imageUrl": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/4f0e937ac9cb40b6bc7811411cc03beb.jpg"
+},
+{
+    "id": "005",
+    "name": "Nivea Multi-purpose Cream",
+    "brand": "Nivea India",
+    "category": "Winter Care",
+    "price": 133,
+    "currency": "INR",
+    "stockStatus": "In Stock",
+    "ratings": 4.6,
+    "reviewsCount": 90,
+    "imageUrl": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/aoyv1cwt3wmzsqpvnddu.jpg"
+},
+{
+    "id": "006",
+    "name": "Gelusil for Acidity,Gas and Stomach Care",
+    "brand": "Pfizer",
+    "category": "Stomach Care",
+    "price": 179,
+    "currency": "INR",
+    "stockStatus": "In Stock",
+    "ratings": 4.1,
+    "reviewsCount": 220,
+    "imageUrl": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/cropped/xz9widg7enybeqeqlvf3.png"
+},
+{
+    "id": "007",
+    "name": "Cetaphil moisturising Cream",
+    "brand": "Cetaphil",
+    "category": "Winter Care",
+    "price": 445,
+    "currency": "INR",
+    "stockStatus": "In Stock",
+    "ratings": 4.6,
+    "reviewsCount": 90,
+    "imageUrl": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/80e2d53e1c36474eb3e6b9480a7ef2e3.jpg"
+},
+{
+    "id": "008",
+    "name": "Triphala Powder",
+    "brand": "Organic India",
+    "category": "Ayurvedic",
+    "price": 205,
+    "currency": "INR",
+    "stockStatus": "In Stock",
+    "ratings": 4.3,
+    "reviewsCount": 110,
+    "imageUrl": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/3aabcc4b65cc434b9cdaf5eedf0053ec.jpg"
+},
+{
+    "id": "009",
+    "name": "Horlicks Health and Nutrition Drink",
+    "brand": "Dabar",
+    "category": "Nutrition",
+    "price": 574,
+    "currency": "INR",
+    "stockStatus": "In Stock",
+    "ratings": 4.1,
+    "reviewsCount": 80,
+    "imageUrl": "https://onemg.gumlet.io/w_150,f_auto,c_fit,q_auto,h_150/e03e9916999d4a9ca7b84fb0b6b771ee.jpg"
+},
+{
+    "id": "010",
+    "name": "Crocin Pain Relief Tablet",
+    "brand": "Crocin",
+    "category": "Pain Relief",
+    "price": 79,
+    "currency": "INR",
+    "stockStatus": "In Stock",
+    "ratings": 3.5,
+    "reviewsCount": 100,
+    "imageUrl": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/8fe6226e02994686b46fa1ec915cbec3.jpg"
+},
+{
+    "id": "011",
+    "name": "T-98",
+    "brand": "Nivea India",
+    "category": "Pain Relief",
+    "price": 12,
+    "currency": "INR",
+    "stockStatus": "In Stock",
+    "ratings": 4,
+    "reviewsCount": 80,
+    "imageUrl": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/cropped/p4g0fmfmimnfiuqyvqfd.jpg"
+}
+],
+"posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+}

@@ -218,7 +218,7 @@ body {
         background-color: white;
     }
 
-    .div_2 {
+    /* .div_2 {
         height: fit-content;
         padding: 5px;
         display: flex;
@@ -234,24 +234,24 @@ body {
         justify-content: space-between;
         align-items: center;
 
-    }
+    } */
 
     .media_cb ul {
         display: none;
     }
 
-    .div_4 {
+    /* .div_4 {
         display: flex;
         height: 70px;
         width: 80px;
         justify-content: space-between;
         align-items: center;
 
-    }
+    } */
 
-    .div_4 a:hover {
+    /* .div_4 a:hover {
         color: orangered;
-    }
+    } */
 
     .div_1 form input {
         height: 30px;
@@ -284,12 +284,12 @@ body {
 
 }
 
-.media_cb ul li:hover .sub_menu_3 {
+.media_cb ul li:hover  {
     display: flex;
     flex-direction: column;
 }
 
-.media_cb ul li:hover .sub_menu_3 ul {
+.media_cb ul li:hover {
     display: block;
     padding: 20px;
     background-color: white;
@@ -332,15 +332,13 @@ body {
 /* Adjustments for larger screens */
 @media (max-width: 992px) {
     /* lg breakpoint */
-    /* Add specific styles for lg if needed */
+
 }
 
 @media (max-width: 1200px) {
-    /* xl breakpoint */
-    /* Add specific styles for xl if needed */
+    
 }
 
 @media (max-width: 1400px) {
-    /* 2xl breakpoint */
-    /* Add specific styles for 2xl if needed */
+    
 }
